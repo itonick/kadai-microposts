@@ -12,6 +12,11 @@
                 <li class="nav-item"><a href="#" class="nav-link">Singup</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
             </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+                <li>{!! link_to_route('signup.get', 'Singup', [], ['class', => 'nav-link']) !!}</li>
+                <li><a href="#">Login</a></li>
+            </ul>
         </div>
     </nav>
 </header>
